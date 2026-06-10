@@ -1,5 +1,5 @@
 {
-  "name": "@langchain/ainative",
+  "name": "@ainative/langchain",
   "version": "0.1.0",
   "description": "LangChain.js integration for AINative — ChatModel, Embeddings, and VectorStore backed by AINative/ZeroDB. Free tier, auto-provisioning, OpenAI-compatible.",
   "main": "index.cjs",
