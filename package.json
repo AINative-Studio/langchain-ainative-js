@@ -1,0 +1,73 @@
+{
+  "name": "@langchain/ainative",
+  "version": "0.1.0",
+  "description": "LangChain.js integration for AINative — ChatModel, Embeddings, and VectorStore backed by AINative/ZeroDB. Free tier, auto-provisioning, OpenAI-compatible.",
+  "main": "index.cjs",
+  "module": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node node_modules/.bin/jest --config jest.config.cjs --forceExit",
+    "test:ci": "node node_modules/.bin/jest --config jest.config.cjs --forceExit --ci"
+  },
+  "keywords": [
+    "langchain",
+    "langchain-integration",
+    "vector-store",
+    "chat-model",
+    "embeddings",
+    "ainative",
+    "zerodb",
+    "free-llm",
+    "rag",
+    "retrieval-augmented-generation",
+    "claude",
+    "cursor",
+    "windsurf",
+    "auto-provisioning",
+    "openai-compatible",
+    "llama",
+    "meta-llama",
+    "vector-database",
+    "semantic-search",
+    "ai-agent",
+    "mcp"
+  ],
+  "author": "AINative Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AINative-Studio/langchain-ainative-js"
+  },
+  "bugs": {
+    "url": "https://github.com/AINative-Studio/langchain-ainative-js/issues"
+  },
+  "homepage": "https://zerodb.ai",
+  "peerDependencies": {
+    "@langchain/openai": ">=0.3.0"
+  },
+  "peerDependenciesMeta": {
+    "@langchain/openai": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "@langchain/openai": "^0.5.0",
+    "jest": "^29.7.0",
+    "@jest/globals": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
