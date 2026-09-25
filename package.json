@@ -53,7 +53,7 @@
   "bugs": {
     "url": "https://github.com/AINative-Studio/langchain-ainative-js/issues"
   },
-  "homepage": "https://zerodb.ai",
+  "homepage": "https://ainative.studio/products/zerodb",
   "peerDependencies": {
     "@langchain/openai": ">=0.3.0"
   },
